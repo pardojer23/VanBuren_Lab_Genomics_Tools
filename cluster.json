@@ -1,0 +1,21 @@
+
+{
+    "__default__":
+    {
+     	"mem": "10G",
+        "time": "3:59:59"
+    },
+    "salmon_index":
+    {
+     	"mem": "24G"
+    },
+    "salmon_map":
+    {
+     	"mem": "36G"
+    },
+    "run_DESeq2":
+    {
+      "mem": "36G"
+    }
+}
+
