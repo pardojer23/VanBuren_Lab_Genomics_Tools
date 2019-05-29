@@ -12,7 +12,7 @@ class SnakeMakeWrapper:
         -f, --fastq_dir', Path to directory containing trimmed RNAseq fastq files.
                         Samples should be named with the pattern [Prefix]_[Condition]_[Timepoint]_[Replicate]
         -o, --output_dir', Path to output directory
-        -s, --sample_pattern, Regular expression defining the sample name,default: _.*_S.*
+        -s, --sample_pattern, Regular expression defining the sample name,default: .*_
         -p, --prefix, Species prefix, must match sample filenames. Example: -p Enin for samples named with pattern Enin_.*_S.*
         -r1, --read1', Fastq file suffix for read1 files,default: _R1_001_trimmed.fastq.gz
         -r2, --read2',Fastq file suffix for read2 files,default:_R2_001_trimmed.fastq.gz
